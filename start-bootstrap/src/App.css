@@ -1,0 +1,67 @@
+
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  color: white;
+}
+
+
+.img{
+  width: 180px;
+  height: 140px;
+  margin-left: 200px;
+  z-index: 7;
+}
+
+
+.tabs{
+  align-items: center;
+  margin-right: 100px;
+  width: 600px;
+  height: 80px;
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 7;
+}
+
+.tabs > p:hover{
+  color: gold;
+  cursor: pointer;
+}
+
+.bodyImg {
+  /* background: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg); */
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+
+
+.bigBox {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.welcome{
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+
+}
+
+
